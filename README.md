@@ -1,7 +1,7 @@
 # Scarcasm Detection 
-- By [manashpratim](https://github.com/manashpratim/Sarcasm-Detection)
+* By [manashpratim](https://github.com/manashpratim/Sarcasm-Detection)
 
--- Improved by [alik604](https://github.com/alik604/ReadMe)
+  * Improved by [alik604](https://github.com/alik604/ReadMe)
 
 > Can sarcastic sentences be identified?
 
