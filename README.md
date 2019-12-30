@@ -26,8 +26,9 @@ The accuracies can be further improved by using the articles to detect sarcasm.
 # acc: 0.9483 | val_acc: 0.8409 # stacked CuDNNLSTM with dropout # 5th  epoch,  batch_size=250 , val_loss: 0.4591
 ```
 ## Added 
-
-
+ConvLSTM2D
+`if data_format='channels_first' 5D tensor with shape: (samples, time, channels, rows, cols)`
+is a work in progress 
 
 # key learning
 This works surprisingly well, despite that it returning sequences
