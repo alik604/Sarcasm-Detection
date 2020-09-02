@@ -43,10 +43,9 @@ This works surprisingly well, despite that it returning sequences
 model_gru = keras.Sequential([
     Embedding(vocab_size, embedding_dim, input_length=max_length),
     Bidirectional(CuDNNLSTM(28, return_sequences=True)),
-    Dense(28, activation='relu'), # work well, ive never read about this... 
+    Dense(28, activation='relu'), # worked well, ive never read about this... 
     Dropout(.3),
     Bidirectional(CuDNNLSTM(20)),
-
     Dense(10, activation='relu'),
     Dense(1, activation='sigmoid')
 ])
