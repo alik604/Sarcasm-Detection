@@ -37,7 +37,7 @@ This works surprisingly well, despite that it returning sequences
 * Dense
 * LSTM
 
-*However, may best model did not use this*
+*However, my best model did not use this*
 
 ```
 model_gru = keras.Sequential([
